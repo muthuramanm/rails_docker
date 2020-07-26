@@ -17,3 +17,5 @@ docker-compose up
 ```sh
 docker-compose run web rake db:create
 ```
+# output:
+![](./web_output.png)
