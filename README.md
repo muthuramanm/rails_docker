@@ -11,3 +11,9 @@ docker-compose build
 ```sh
 docker-compose up
 ```
+
+# To create db using another terminal
+
+```sh
+docker-compose run web rake db:create
+```
